@@ -1,0 +1,68 @@
+@media(max-width:800px){
+
+    .about-us-image-wrapper {
+        height: 300px;
+    
+        min-height: 400px;
+        position: relative;
+    }
+    .citerempco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 150px;
+        padding: 0px 20px;
+
+    }
+    
+    .citerempco h2 {
+        font-size: 36px;
+    }
+    
+    .citerempco h2:after {
+        background-color: #000;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50px;
+        right: -10px;
+    }
+    .citerempco h2:before {
+        background-color: #000;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50px;
+        left: -10px;
+    }
+/* 
+|---------------------------------------------
+| about us content
+|---------------------------------------------
+*/
+
+    .about-us-content{
+        font-size: 14px;
+
+    }
+
+    .about-text h2{
+        font-size: 34px;
+    }
+
+    .about-text p{
+        padding: 0px 1em;
+    }
+    .about-us-box div h2{
+        font-size: 34px;
+    }
+    .about-us-box div p {
+
+        padding:0px 1em;
+
+    }
+}

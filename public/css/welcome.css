@@ -1,0 +1,104 @@
+.about-us-image-wrapper {
+    height: 300px;
+
+    min-height: 765px;
+    position: relative;
+}
+
+.about-us-image {
+    width: 100%;
+    height: 100%;
+    background: url("../storage/project_mages/pcow.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+/* 
+|---------------------------------------------
+| about us lines
+|---------------------------------------------
+*/
+.citerempco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    padding: 0px 20px;
+}
+
+.citerempco h2 {
+    font-size: 48px;
+}
+
+.citerempco h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 450px;
+    right: -20px;
+}
+.citerempco h2:before {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 450px;
+    left: -20px;
+}
+
+/* 
+|---------------------------------------------
+| about us content
+|---------------------------------------------
+*/
+.about-us-content {
+    font-size: 21px;
+}
+.about-text {
+    text-align: center;
+}
+.about-text h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.about-text p {
+    font-weight: 400;
+
+    padding: 0px 110px;
+    text-align: center;
+}
+
+/* 
+|---------------------------------------------
+| about us boxes may flex
+|---------------------------------------------
+*/
+
+.about-us-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1 0 auto;
+    margin-top: 50px;
+}
+
+.about-us-box div {
+    margin: 1px;
+    width: 300px;
+    flex-grow: 1;
+}
+
+.about-us-box div h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.about-us-box div p {
+    padding: 0px 90px;
+    text-align: center;
+}
