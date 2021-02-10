@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+   
+    <!-- desktop -->
     <link rel="stylesheet" href="{{asset('css/fix.css')}}">
-    <link rel="stylesheet" href="{{asset('css/welcome.css')}}">
+    <link rel="stylesheet" href="{{asset('css/about.css')}}">
+    <link rel="stylesheet" href="{{asset('css/home.css')}}">
     <!-- mobiles -->
-    <link rel="stylesheet" href="{{asset('css/welcome.css')}}">
-    <link rel="stylesheet" href="{{asset('css/mobile/welcome.css')}}">
+    <link rel="stylesheet" href="{{asset('css/mobile/home.css')}}">
+    <link rel="stylesheet" href="{{asset('css/mobile/fix.css')}}">
+    <link rel="stylesheet" href="{{asset('css/mobile/aboutus.css')}}">
+    <link rel="stylesheet" href="{{asset('fontawesome/css/all.css')}}">    
 </head>
 
 <body>
@@ -26,8 +31,8 @@
         </div>
         <div class="box">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{{route('home')}}">Home</a></li>
+                <li><a href="{{route('aboutus')}}">About</a></li>
                 <li><a href="#">Log-in</a></li>
             </ul>
         </div>

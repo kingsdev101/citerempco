@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OutsidePageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,9 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome.welcome');
+    return view('welcomepage.aboutus');
 });
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/homes', [HomeController::class, 'index'])->name('homes');
+Route::get('/aboutus', [OutsidePageController::class, 'aboutus'])->name('aboutus');
+Route::get('/home', [OutsidePageController::class, 'home'])->name('home');
+

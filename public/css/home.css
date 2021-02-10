@@ -1,0 +1,319 @@
+/* 
+|---------------------------------------------
+| image
+|---------------------------------------------  
+*/
+
+.home-image-wrapper {
+    min-height: 665px;
+    background: url("../storage/project_mages/meet.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-image-wrapper form {
+    margin: 0 auto;
+    border-radius: 35px;
+    height: 500px;
+    width: 380px;
+    background-color: rgba(34, 40, 49, 0.7);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.home-image-wrapper form h2 {
+    font-size: 24px;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.home-image-wrapper form .form-control {
+    margin-top: 30px;
+    width: 306px;
+    border-radius: 37px;
+    padding: 20px;
+}
+
+.home-image-wrapper form .btn {
+    width: 164px;
+    padding: 6px 12px;
+    background: #222831;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 37px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
+    color: #ffff;
+}
+
+.home-content {
+    background-color: #ffff;
+    padding: 60px 3em 30px 3em;
+    box-sizing: border-box;
+}
+
+/* 
+|---------------------------------------------
+| step
+|--------------------------------------------- 
+ */
+.step {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #262626;
+    position: relative;
+    padding: 50px 30px 50px 30px;
+}
+
+.step::before {
+    font-weight: 200;
+    content: "CITEREMPCO";
+    display: block;
+    z-index: 1;
+    background-color: #ffff;
+    font-size: 48px;
+    position: absolute;
+    padding: 0px 40px;
+    top: -39px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.step .box {
+    flex-grow: 1;
+    min-height: 465px;
+    min-width: 200px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.step .image {
+    margin: 0 auto;
+    width: 220px;
+    height: 200px;
+    background-color: #3bcced;
+    margin-bottom: 18px;
+}
+
+.step .box h3 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.step .box span {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.step .box p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 
+|---------------------------------------------
+| our-success-loaner
+|--------------------------------------------- 
+ */
+
+.our-success-loaner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #222831;
+    position: relative;
+    padding: 90px 20px;
+    font-weight: 200;
+    flex-wrap: wrap;
+}
+
+.our-success-loaner::before {
+    content: "OUR SUCCESSFUL LOANER";
+    display: block;
+    z-index: 1;
+    background-color: #ffff;
+    font-size: 48px;
+    position: absolute;
+    padding: 0px 40px;
+    top: -39px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+.our-success-loaner::after {
+    content: "CONTACT FORM";
+    display: block;
+    z-index: 1;
+    background-color: #ffff;
+    font-weight: 200;
+    font-size: 48px;
+    position: absolute;
+    padding: 0px 40px;
+    bottom: -39px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.our-success-loaner .box {
+    border-radius: 35px;
+    background: #222831;
+    width: 320px;
+    min-height: 550px;
+    margin: 0px 18px;
+    color: #ffff;
+    padding: 30px 0px 8px 0px;
+}
+
+.our-success-loaner .box .box-image {
+    border: 2px solid #ffff;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    background-color: #ffff;
+}
+
+.our-success-loaner .box .box-image img {
+    width: 100%;
+    height: auto;
+}
+
+.our-success-loaner .box span {
+    font-size: 25px;
+    
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 10px 18px 5px 18px;
+    border-bottom: 1px solid #ffff;
+}
+
+.our-success-loaner .box p {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+}
+
+/* 
+|---------------------------------------------
+| contact form
+|--------------------------------------------- 
+ */
+
+.contact-form {
+    padding-top: 100px;
+    border-top: 1px solid #222831;
+}
+
+.contact-form .fp {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-form .div-wrapper {
+    padding: 80px 20px 20px 20px;
+}
+
+.contact-icons {
+}
+.contact-icons .holder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1px;
+    padding: 20px;
+}
+
+.contact-icons .holder .img-wrap {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-right: 50px;
+}
+.contact-icons .holder .info-wrap {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+.contact-icons .holder .info-wrap p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-icons .holder .info-wrap span {
+    display: block;
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.contact-submit-form form {
+    background-color: rgba(34, 40, 49, 0.7);
+    border-radius: 35px;
+    width: 350px;
+    height: 489px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-submit-form form .form-control {
+    margin-top: 20px;
+    width: 306px;
+    border-radius: 37px;
+    padding: 20px;
+}
+
+.contact-submit-form form textarea {
+    width: 306px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.contact-submit-form form button {
+    width: 164px;
+    padding: 6px 12px;
+    background-color: rgba(34, 40, 49, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 37px;
+    margin-top: 20px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.contact-submit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
