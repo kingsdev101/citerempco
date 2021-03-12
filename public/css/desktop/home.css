@@ -6,7 +6,7 @@
 
 .home-image-wrapper {
     min-height: 665px;
-    background: url("../storage/project_mages/meet.jpg");
+    background: url("../../storage/project_mages/meet.jpg");
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -19,14 +19,14 @@
 .home-image-wrapper form {
     margin: 0 auto;
     border-radius: 35px;
-    height: 500px;
-    width: 380px;
+     width: 380px;
     background-color: rgba(34, 40, 49, 0.7);
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    padding: 20px 0px;
 }
 
 .home-image-wrapper form h2 {
@@ -40,6 +40,24 @@
     width: 306px;
     border-radius: 37px;
     padding: 20px;
+    font-weight: 600;
+    color: #222831;
+}
+.home-image-wrapper form .form-control::placeholder{
+    color: #787878;
+    font-weight: 300;
+}
+
+.home-image-wrapper form strong{
+    display: block;
+    padding: 5px 10px 0px 10px;
+    color: red;
+    font-size: 12px;
+    font-weight: normal;
+    background-color:#222831;
+    margin-top: 1px;
+
+
 }
 
 .home-image-wrapper form .btn {
@@ -52,6 +70,11 @@
     margin-top: 20px;
     box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
     color: #ffff;
+    transition: 0.3s;
+}
+
+.home-image-wrapper form .btn:hover{
+    transform: scale(0.90);
 }
 
 .home-content {
@@ -101,10 +124,13 @@
     margin: 0 auto;
     width: 220px;
     height: 200px;
-    background-color: #3bcced;
+
     margin-bottom: 18px;
 }
-
+.step .image img{
+    width: 100%;
+    height: auto;
+}
 .step .box h3 {
     font-size: 24px;
     font-weight: 900;
@@ -290,12 +316,18 @@
     width: 306px;
     border-radius: 37px;
     padding: 20px;
+    font-weight: 600;
+    color:#222831;
 }
 
 .contact-submit-form form textarea {
     width: 306px;
     margin-top: 20px;
     padding: 15px;
+}
+.contact-submit-form form .form-control::placeholder{
+    color: #787878;
+    font-weight: 300;
 }
 
 .contact-submit-form form button {
@@ -309,8 +341,11 @@
     border: none;
     color: #ffff;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
-
+.contact-submit-form form button:hover{
+    transform: scale(0.90);
+}
 .contact-submit-form {
     display: flex;
     justify-content: center;

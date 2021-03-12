@@ -1,0 +1,62 @@
+.certification {
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+.certification h1{
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.cetificate-input p{
+    padding: 10px 0px;
+    text-indent: 50px;
+}
+.certification input[type="text"],.certification input[type="date"]{
+    outline: none;
+    border:1px solid rgba(0,0,0,0.5);
+    height: 27px;
+    margin: 3px 2px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.certification .cinput1{
+    width: 650px;
+    min-width: 150px;
+}
+.certification .cinput2{
+    width: 300px;
+    min-width: 150px;
+}
+.certification .cinput3{
+    width: 193px;
+    min-width: 150px;
+}
+.certification .cinput4{
+    width: 300px;
+    min-width: 150px;
+}
+
+.certification .hisbest{
+    margin: 40px 0px;
+}
+
+
+.certification .manager-signature{
+    display: flex;
+    justify-content: flex-end;
+}
+.certification .manager-signature div{
+    min-width: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.certification .manager-signature div .line-manager{
+    border-top: 1px solid #333;
+}

@@ -1,0 +1,350 @@
+/* 
+|---------------------------------------------
+|checkbox
+|---------------------------------------------
+*/
+
+/* Customize the label (the container) */
+* {
+    box-sizing: border-box;
+}
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-right: 35px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 4px;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    height: 23px;
+    width: 23px;
+    background-color: #f7f7f7;
+    border: 1px solid #eeee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    right: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* 
+|---------------------------------------------
+|general
+|---------------------------------------------
+*/
+.loanapplication {
+    border: 1px solid rgba(0,0,0,0.5);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 750px;
+    transition: 0.1s ease-in-out;
+    overflow:hidden;
+    transition: all 0.9s ease;
+
+}
+.loanapplication .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.loanapplication .btns .btn {
+    width: 182px;
+    padding: 4px 6px;
+    color: #ffff;
+    background: #222831;
+    border-radius: 36px;
+    margin: 0 2px;
+}
+
+.loanapplication .ins {
+    height: 24px;
+}
+
+
+.loanapplication .form-control[type="text"],.loanapplication .form-control[type="date"]{
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    height: 28px;  
+    margin: 3px 0px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.loanapplication .form-control[type="text"],.loanapplication .form-control[type="date"]:focus{
+    
+}
+/* 
+|---------------------------------------------
+|step1
+|---------------------------------------------
+*/
+.checkbox-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loanapplication {
+    font-family: "Poppins";
+}
+.loanapplication form h2 {
+    font-weight: 600;
+    font-size: 34px;
+}
+.loanapplication form .group1{
+    margin-top: 30px;
+}
+.loanapplication form .group1 select {
+    background: #d4d4d4;
+    outline: none;
+    border-radius: 36px;
+    padding: 4px 8px;
+    border: 1px solid #828282; 
+    min-width: 260px;
+    font-size: 14px;
+    
+}
+
+.loanapplication form .group1 option {
+    background: #ffff;
+}
+
+.loanapplication .step1 .inputs div span,
+.loanapplication .step1 .spouse div span {
+    min-width: 140px;
+
+}
+
+.loanapplication .step1 .inputs p,
+.loanapplication .step1 .z p {
+    font-weight: 500;
+
+}
+
+.loanapplication .step1 .group2 .dateapplied span {
+    min-width: 120px;
+    margin-right: 5px;
+
+}
+
+.step1 .group2 .inputs div {
+    margin: 3px 0px;
+}
+
+.step1 .group2 .dateapplied .appliedage span {
+    min-width: 0px;
+}
+
+.step1 .group2 .dateapplied .appliedage input[type="text"] {
+    min-width: 100px;
+    width: 100px;
+}
+.step1 .group2 .dateapplied input[type="date"] {
+    width: 100%;
+    min-width: 200px;
+}
+.group3 div input[type="text"] {
+    height: 31px;
+}
+
+.group3 select {
+    background: #d4d4d4;
+    outline: none;
+    border-radius: 36px;
+    padding: 3px 6px;
+    min-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.step1 .group3 option {
+    background-color: #ffff;
+}
+
+/* 
+|---------------------------------------------
+|step 2
+|---------------------------------------------
+*/
+
+.step2 .step2-group1 div .savingdeposit {
+    min-width: 150px;
+    font-weight: 500;
+    background-color: red;
+}
+.step2 .step2-group1 span{
+    padding: 3px 4px;
+}
+
+.ins21 {
+    min-width: 290px;
+    width: 390px;
+ 
+}
+.ins22 {
+    min-width: 290px;
+    width: 340px;
+}
+.ins23 {
+    min-width: 290px;
+    width: 100%;
+}
+.ins24{
+    width: 295px;
+}
+.purposeofloan span, .amount span{
+min-width: 160px;
+}
+
+.step2-group2 table thead tr th ,.step2-group2 table td{
+   text-align: center;
+    
+}
+.step2-group2 table td{
+    color: silver;
+}
+
+.step2-group2 table thead tr th:hover{
+    background: #222831;
+    color: #ffff;
+}
+
+
+/* 
+|---------------------------------------------
+|step3
+|---------------------------------------------
+*/
+
+.step3 .step3-wrapper p{
+    text-indent: 50px;
+    padding: 15px 30px;
+}
+.step3 .terms{
+    padding: 20px;
+    text-align: center;
+}
+
+.step3 .terms select{
+    padding: 4 6px;
+    border-radius: 4px;
+    margin: 0px 10px;
+    outline:none;
+    border:1px solid #d4d4d4;
+}
+
+.step3 .terms span{
+    word-spacing: 3px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* 
+|---------------------------------------------
+|step 4
+|---------------------------------------------
+*/
+
+.step4 .form-control{
+    max-width: 200px;
+    margin: 2px 5px;
+    display: inline-block;
+    height: 24px;
+}
+
+.step4 .step4-wrapper p{
+    padding: 15px 20px;
+    text-indent: 50px;
+}
+
+
+.loanapplication .holder{
+    padding: 10px;
+    
+    position: relative;
+}
+
+.step1,.step2, .step3, .step4{
+    width: 25%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+
+    
+}
+
+.loanapplication .form-outside{
+    width: 100%;
+    max-width: 950px;
+    overflow:hidden;
+    
+    
+}
+.loanapplication .form-outside form{
+    
+    width: 100%;
+}
+
+.loanapplication .form-outside form .holder{
+    transition: all 0.9s ease-in-out;
+    display: flex;
+    width: 400%;
+
+
+}
+
+
+ 

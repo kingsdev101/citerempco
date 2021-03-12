@@ -1,0 +1,90 @@
+.promissory{
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 0px 50px;
+}
+
+.promissory .form-control{
+    display: inline-block;
+    width:283px;
+    
+    height: 24px;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.promissory h1 , .promissory .membername{
+    font-size: 24px;
+    font-weight: 600;
+}
+.promissory h1{
+    text-align: center;
+    padding: 16px 0px;
+}
+
+.member-details{ 
+    
+    border-top: 1px solid rgba(0,0,0,0.5);
+    margin-top: 16px 0px;
+    padding: 16px 0px;
+}
+
+.promissory .member-details .member{
+    max-width: 360px;
+    min-width: 224px;
+
+    text-align: center;
+    padding: 0px 20px;
+}
+.promissory .member-details .member .memberline{
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+.wraps-prom-groups{
+    margin:20px 0px;
+}
+.wraps-prom-groups .promiinputs{
+    display: inline-block ;
+     display: flex;
+    flex-wrap: wrap;
+
+}
+
+.wraps-prom-groups .prom-groups{
+    margin: 0px 10px 0px 0px;
+    min-width: 240px;
+}
+
+.wraps-prom-groups .promiinputs select{
+    background-color: #D3CECE;
+    color: black;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.wraps-prom-groups .promiinputs option{
+    background-color: #fff;
+}
+
+.promissory .prom-text p{
+    text-indent: 50px;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.promissory .prom-text .phpinput{
+    max-width: 70px;
+}
+
+.prom-table {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.prom-table .table thead{
+background: #222831;
+color: #fff;
+text-align: center;
+
+}

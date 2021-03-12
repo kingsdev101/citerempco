@@ -1,0 +1,370 @@
+/* 
+|---------------------------------------------
+| general
+|---------------------------------------------  
+*/
+
+.emergencyloan{
+    font-size: 18px;
+    border: 1px solid #333;
+    padding: 10px 30px 20px 30px;
+
+}
+
+.emergencyloan .eform-wrapper form h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 0px 0px;
+    font-weight: 600;
+    padding: 20px 0px 24px 0px;
+
+
+}
+
+.emergencyloan .eform-wrapper form .eholder{
+    border-top: 1px solid #333;
+  
+}
+
+.emergencyloan input[type="text"],
+.emergencyloan input[type="date"] {
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    height: 28px;
+    margin: 3px 0px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.emergencyloan select {
+    background-color: #c9c5c5;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px;
+
+}
+
+
+
+/* 
+|---------------------------------------------
+| step 1
+|---------------------------------------------  
+*/
+
+
+.emergencyloan .einput{
+    padding: 10px 20px;
+}
+
+.emergencyloan .einput .ap{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+
+.emergencyloan .einput .group-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.emergencyloan .einput .group-box .eboxes{
+    flex-grow: 1;
+    max-width: 50%;
+    padding: 0px 20px 0px 0px;
+
+}
+.emergencyloan .einput .group-box .eboxes .ediv{
+    margin: 10px 0px;
+
+}
+
+.emergencyloan .einput .ecty{
+    width: 96px;
+}
+.emergencyloan .einput .group-box .eb1 .ein{
+    width: 100%;
+    max-width: 444px;
+}
+.emergencyloan .einput .group-box .eis{
+    width: 243px;
+}
+.emergencyloan .einput .group-box .edc{
+    display: flex;
+}
+.emergencyloan .einput .eb1 select{
+    width: 91px;
+}
+
+
+.emergencyloan .einput .group-box .eb2 .ein{
+    width: 336px;
+}
+
+/* 
+|---------------------------------------------
+| CIRCLE AND BUTTON
+|---------------------------------------------  
+*/
+
+.emergencyloan .einfo {
+    padding: 10px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.emergencyloan .einfo .circle-wrapper {
+    width: 120px;
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.emergencyloan .einfo .circle-wrapper div {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #222831;
+    margin: 0px 5px;
+}
+.circle-wrapper .active {
+    background-color: #222831;
+}
+
+.emergencyloan .einfo .stepbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.emergencyloan .einfo .stepbutton button {
+    padding: 4px 6px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    width: 182px;
+    margin: 0px 5px;
+    text-transform: capitalize;
+}
+.emergencyloan .einfo .stepbutton button:hover {
+    transform: scale(0.95);
+}
+
+/* 
+|---------------------------------------------
+| step 2
+|---------------------------------------------  
+*/
+
+.emergencyloan .estep2{
+    padding: 20px 0px 0px 0px;
+}
+
+.emergencyloan .estep2 .epar p{
+text-indent: 150px;
+padding: 8px 10px;
+}
+.emergencyloan .estep2 .ename{
+    width: 311px;
+}
+
+.emergencyloan .estep2 .eamount{
+    width: 228px;
+}
+
+.emergencyloan .estep2 .ephp{
+    width: 123px;
+}
+.emergencyloan .estep2 .edate{
+    width: 209px;
+}
+
+.emergencyloan .ap-br{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.emergencyloan .ap-br .ap-ab-box{
+    width: 317px;
+    text-align: center;
+    padding: 0px 5px;
+
+}
+.emergencyloan .ap-br .ap-ab-box input[type="text"]{
+    width: 100%;
+}
+.emergencyloan .ap-br .ap-ab-box div{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* 
+|---------------------------------------------
+| step 3
+|---------------------------------------------  
+*/
+
+.estep3{
+padding: 20px 0px;
+}
+.estep3 .einfo-section{
+}
+.estep3 .einfo-section{
+    display: flex;
+}
+.estep3 .einfo-section .group-boxes{
+    
+    
+    flex-grow: 1;
+    margin: 1px;
+    width: 300px;
+}
+.estep3 .ap{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.estep3 .einfo-section .group-boxes span{
+    padding: 2px 10px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 0px;
+    word-break: break-all;
+    background-color: #f7f7f7;
+    
+}
+.estep3 .eiregister {
+    margin-top: 30px;
+}
+.estep3 .eiregister p{
+    text-indent: 160px;
+    margin: 25px 0px;
+}
+
+.estep3 .eiregister .eregistspace{
+    display: inline-block;
+        text-indent: 0;
+        background-color: #f7f7f7;
+        text-align: center;
+      margin: 3px 0px;
+
+   
+
+}
+
+.estep3 .enwitness {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.estep3 .esignature-areas{
+    margin-top: 20px;
+    
+}
+
+.estep3 .esignature-areas .eap-br{
+   
+    
+}
+.estep3 .esignature-areas .eap-br{
+ display: flex;
+ justify-content: flex-end;
+ margin-top: 60px;
+}
+
+.estep3 .esignature-areas .eap-br .eap-ab-box{
+    width: 300px;
+    text-align: center;
+    padding: 0px 10px;
+
+}
+
+.estep3 .loan-b{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.estep3 .loan-b .elbox{
+    width: 300px;
+    margin: 1px;
+}
+.estep3 .loan-b .elbox p{
+    margin-bottom: 20px;
+}
+.estep3 .loan-b .elbox div{
+  
+    padding: 0px 20px;
+}
+.estep3 .loan-b .elbox div p{
+    text-align: center;
+    margin: 0;
+}
+.estep3 .loan-b .elbox div div{
+    text-align: center;
+
+    border-top: 1px solid #333;
+}
+
+.estep3 .etrasurere{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estep3 .etrasurere div{
+    text-align: center;
+    width: 260px;
+}
+.estep3 .etrasurere div div{
+    
+border-top: 1px solid #333;
+}
+.estep3 .esubmitbtn{
+    margin-top: 30px;
+    text-align: center;
+}
+.estep3 .esubmitbtn button{
+    background-color: red;
+    border-radius: 20px;
+    width: 182px;
+    background-color: #222831;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 4px 8px;
+}
+
+/* 
+|---------------------------------------------
+| slide ccss
+|---------------------------------------------  
+*/
+
+.emergencyloan .eform-wrapper {
+    min-width: 870px;
+    height: 400px;
+    height: 600px;
+    transition: height 0.3s ease;
+    overflow-y:hidden;
+}
+.emergencyloan .eform-wrapper form{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.emergencyloan .eform-wrapper form .eholder{
+width: 300%;
+    display: flex;
+    transition: all 0.9s ease;
+}
+
+.estep1,.estep2,.estep3{
+width: 33.3333%; 
+
+}

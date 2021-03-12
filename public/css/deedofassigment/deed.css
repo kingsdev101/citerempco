@@ -1,0 +1,130 @@
+
+
+.deedofassigment{
+    padding: 40px 50px;
+    border: 1px solid rgba(0,0,0,0.5); 
+    font-size: 18px;
+
+
+}
+
+.deedofassigment .form-control{
+    display: inline-block;
+    min-width: 200px;
+    width: 25%;
+    height: 26px;
+    border-radius: 0;
+    border:1px solid rgba(0,0,0,0.5);
+
+    
+}
+.deedofassigment .form-control:focus{
+    box-shadow: none;
+}
+.uppersection{
+
+    display: flex;    
+
+
+}
+
+.uppersection .pco-img{
+    width: 214px;
+    height: 214px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppersection .pco-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.uppersection .upper-text{
+    text-align: center;
+ 
+}
+
+.uppersection .text-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.uppersection .text-code p{
+    max-width: 195px;
+    
+}
+
+.uppersection .stourney-text{
+    margin-top: 34px;
+}
+.letter-section .intro{
+    margin-top: 24px;
+}
+
+.letter-section .second-text{
+
+    text-indent: 50px;
+}
+.letter-section input[type="text"]{
+    width: 200px;
+
+}
+.letter-section p{
+    text-align: justify;
+    padding: 15px 30px;
+}
+.letter-section .intwitness{
+    text-indent: 50px;
+}
+
+.letter-section .intwitness input[type="date"]{
+    width: 281px;
+}
+.deedinputs .dinput{
+
+    text-align: center;
+}
+.deedinputs .dinput input[type="text"]{
+    width: 281px;
+    margin: 0px 5px;
+}
+
+.deedinputs .deedgroup1{
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deedinputs .deedgroup2{
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.Aknowledgement-section{
+    margin-top: 60px;
+}
+.Aknowledgement-section input[type="text"]{
+    margin: 5px;
+    width: 281px;
+}
+.Aknowledgement-section .aknowledgment-text{
+    text-align: center;
+}
+
+.Aknowledgement-section p{
+    margin-top: 20px;
+    padding: 0px 30px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.deeddownsection{
+    padding: 0px 30px;
+    margin-top: 60px;
+}

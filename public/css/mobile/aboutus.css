@@ -1,54 +1,5 @@
-@media(max-width:1080px){
-
-     .about-us-image-wrapper {
-        height: 300px;
-    
-        min-height: 400px;
-        position: relative;
-    } 
-
-/* 
-|---------------------------------------------
-| about us content
-|---------------------------------------------
-*/
-
-    .about-us-content{
-        font-size: 14px;
-
+@media(max-width:767px){
+    .home-content{
+        background-color: #3bcced;
     }
-
-    .about-text h2{
-        font-size: 34px;
-    }
-
-    .about-text p{
-        padding: 0px 1em;
-    }
-    .about-us-box div h2{
-        font-size: 34px;
-    }
-    .about-us-box div p {
-
-        padding:0px 1em;
-
-    }
- .about-us-box{
-     margin-bottom: 0px;
-     padding: 0;
-
- }
-
- .citmpco {
-     font-size: 40px;
- }
-
-    /* 
-|---------------------------------------------
-| footer
-|---------------------------------------------
-*/
-
-    
-
 }

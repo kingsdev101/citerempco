@@ -1,0 +1,566 @@
+/* 
+|---------------------------------------------
+| GENERAL
+|---------------------------------------------  
+*/
+
+.creditlifeinsurance {
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0,0.5);
+
+}
+
+.creditlifeinsurance input[type="text"],
+.creditlifeinsurance input[type="date"] {
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    height: 23px;
+
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.creditlifeinsurance select {
+    background-color: #c9c5c5;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.creditlifeinsurance option {
+    background-color: #ffff;
+    color: black;
+}
+
+.creditlifeinsurance .insureancelogo-title {
+    display: flex;
+    align-items: center;
+}
+
+.creditlifeinsurance .insureancelogo-title .philam-life-image {
+    width: 260px;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.creditlifeinsurance .insureancelogo-title .philam-life-image img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.creditlifeinsurance .insureancelogo-title .h1-text {
+    font-size: 24px;
+
+    box-sizing: border-box;
+}
+
+/* 
+|---------------------------------------------
+| CIRCLE AND BUTTON
+|---------------------------------------------  
+*/
+
+.creditlifeinsurance .stepinfo {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.creditlifeinsurance .stepinfo .circle-wrapper {
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.creditlifeinsurance .stepinfo .circle-wrapper div {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #222831;
+    margin: 0px 5px;
+}
+.circle-wrapper .active {
+    background-color: #222831;
+}
+
+.creditlifeinsurance .stepinfo .stepbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.creditlifeinsurance .stepinfo .stepbutton button {
+    padding: 4px 6px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    width: 124px;
+    margin: 0px 5px;
+    text-transform: capitalize;
+}
+.creditlifeinsurance .stepinfo .stepbutton button:hover {
+    transform: scale(0.95);
+}
+
+/* 
+|---------------------------------------------
+| STEP 1
+|---------------------------------------------  
+*/
+.creditlifeinsurance .lstep1 h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #ffff;
+    background-color: #c11935;
+    padding: 4px;
+}
+/* 
+|---------------------------------------------
+| BUNDLE 1
+|---------------------------------------------  
+*/
+.creditlifeinsurance .lstep1 {
+
+}
+.creditlifeinsurance .lstep1 .input-bundle {
+    display: flex;
+    padding: 10px 20px 14px 20px;
+    flex-wrap: wrap;
+    border-radius: 1px;
+    border-left: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+.creditlifeinsurance .lstep1 .input-bundle .seperate1 input[type="text"],
+.creditlifeinsurance .lstep1 .input-bundle .seperate1 input[type="date"],
+.creditlifeinsurance .lstep1 .input-bundle .seperate2 input[type="text"],
+.creditlifeinsurance .lstep1 .input-bundle .seperate2 input[type="date"] {
+    width: 246px;
+}
+
+.creditlifeinsurance .lstep1 .input-bundle .box {
+    flex-grow: 1;
+
+}
+
+.creditlifeinsurance .lstep1 .input-bundle .seperate3 .lgroup-wrap {
+    display: flex;
+    box-sizing: border-box;
+}
+.creditlifeinsurance .lstep1 .input-bundle .seperate3 .lgroup-wrap div {
+    flex-grow: 1;
+    display: flex;
+
+
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.creditlifeinsurance .lstep1 .input-bundle .lselect1 {
+    width: 90px;
+}
+.creditlifeinsurance .lstep1 .input-bundle .linput7 {
+    width: 90px;
+}
+.creditlifeinsurance .lstep1 .input-bundle .seperate3 .text-none {
+    height: 27px;
+}
+
+/* 
+|---------------------------------------------
+| BUNDLE 2 GROUP 1
+|---------------------------------------------  
+*/
+
+.creditlifeinsurance .input-bundle2 {
+    margin-top: 5px;
+
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 10px 20px 5px 20px;
+
+}
+.creditlifeinsurance .input-bundle2 .groups1 {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.creditlifeinsurance .input-bundle2 .name-employer-text {
+    padding: 8px 0px;
+}
+.creditlifeinsurance .input-bundle2 .groups1 div {
+    flex-grow: 1;
+}
+
+.creditlifeinsurance .input-bundle2 .groups1 .box1 input[type="text"] {
+    width: 246px;
+}
+
+.creditlifeinsurance .input-bundle2 .box2 .wg {
+    width: 105px;
+}
+
+.creditlifeinsurance .life-annualincome {
+    margin-top: 5px;
+}
+.creditlifeinsurance .life-annualincome .group-wrapper {
+    display: flex;
+}
+
+.creditlifeinsurance .life-annualincome .group-wrapper .box-group {
+    flex-grow: 1;
+}
+.creditlifeinsurance
+    .life-annualincome
+    .group-wrapper
+    .box-group
+    .inside-box-group
+    div {
+    display: flex;
+    margin-top: 5px;
+}
+.creditlifeinsurance .life-annualincome .group-wrapper .box-group p {
+    padding: 0px 5px;
+}
+
+.creditlifeinsurance .life-annualincome .group-wrapper .box-group .am {
+    width: 111px;
+    margin: 2px 0px;
+}
+
+/* 
+|---------------------------------------------
+| BUNDLE 2 GROUP 2 
+|---------------------------------------------  
+*/
+.creditlifeinsurance .groups2 .primary-linput input[type="text"] {
+    display: flex;
+    width: 291px;
+}
+.creditlifeinsurance .groups2 .primary-linput {
+    display: flex;
+}
+
+.creditlifeinsurance .groups2 .primary-linput div {
+    flex-grow: 1;
+    display: flex;
+}
+
+.creditlifeinsurance .groups2 .group-wrapper {
+    margin: 1px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+.creditlifeinsurance .groups2 .group-wrapper .boxf-wrap {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+.creditlifeinsurance .groups2 .group-wrapper .boxf-wrap .ct {
+    width: 95px;
+}
+.creditlifeinsurance .groups2 .group-wrapper .box .tp {
+    width: 133px;
+}
+.creditlifeinsurance .groups2 .gdown {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.creditlifeinsurance .groups2 .gdown div {
+    flex-grow: 1;
+}
+.creditlifeinsurance .groups2 .gdown input[type="text"] {
+    width: 90%;
+}
+
+/* 
+|---------------------------------------------
+| STEP 2
+|---------------------------------------------  
+*/
+.creditlifeinsurance .lstep2 {
+
+}
+.creditlifeinsurance .lstep2 h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #ffff;
+    background-color: #c11935;
+    padding: 4px;
+    
+
+}
+.creditlifeinsurance .bnd1 {
+    padding: 10px 20px 14px 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance .bnd1 .collection {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.creditlifeinsurance .bnd1 .collection .box {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.creditlifeinsurance .bnd1 .clt1 input[type="text"] {
+    width: 100%;
+    width: 192px;
+}
+.creditlifeinsurance .bnd1 .clt1 select {
+    width: 100%;
+}
+.creditlifeinsurance .bnd1 .clt1 {
+}
+.creditlifeinsurance .bnd1 .clt2 input[type="text"] {
+    width: 100%;
+}
+
+.creditlifeinsurance .bnd1 .clt3 {
+}
+.creditlifeinsurance .bnd1 .clt3 input[type="text"],
+.creditlifeinsurance .bnd1 .clt3 input[type="date"] {
+    width: 100%;
+}
+
+.creditlifeinsurance .bnd1 .clt4 input[type="text"] {
+    width: 100%;
+}
+
+/* 
+|---------------------------------------------
+| STEP 2 BUNDLE 2
+|---------------------------------------------  
+*/
+.creditlifeinsurance .bnd2 {
+    padding: 10px 20px 5px 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance .bnd2 .ifthere-text {
+    text-align: center;
+
+    padding: 0px 70px;
+}
+
+.creditlifeinsurance .bnd2 .wrap-collection {
+    margin-top: 10px;
+}
+.creditlifeinsurance .bnd2 .wrap-collection .collection {
+    display: flex;
+}
+.creditlifeinsurance .bnd2 .box input[type="text"] {
+    width: 100%;
+}
+.creditlifeinsurance .bnd2 .box .bfage {
+    width: 76px;
+}
+
+/* 
+|---------------------------------------------
+| STEP 3
+|---------------------------------------------  
+*/
+
+.creditlifeinsurance .lstep3 h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #ffff;
+    background-color: #c11935;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.creditlifeinsurance .lstep3 .check-input {
+    border: 1px solid #333;
+}
+.creditlifeinsurance .lstep3 .check-input .csection {
+    
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox {
+    position: relative;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-p {
+    border-right: 1px solid rgba(0,0,0,0.5);
+    padding: 10px 20px 5px 20px;
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-p p {
+    width: 420px;
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-t {
+    display: flex;
+    flex-flow: column;
+    width: 56px;
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-t .yes-no-text {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance
+.lstep3
+.check-input
+.csection
+.cbox-t
+.yes-no-text
+.yes-text {
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-t .yes-no-text div {
+    flex-grow: 1;
+    width: 56px;
+    text-align: center;
+    text-transform: capitalize;
+    height: 27px;
+}
+
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-t .yes-no-inputs {
+    display: flex;
+    height: 100%;
+}
+.creditlifeinsurance
+.lstep3
+.check-input
+.csection
+.cbox-t
+.yes-no-inputs
+.check-box-in {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.creditlifeinsurance
+.lstep3
+.check-input
+.csection
+.cbox-t
+.yes-no-inputs
+.check-box-in-right {
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+.creditlifeinsurance
+.lstep3
+.check-input
+.csection
+.cbox-t
+.yes-no-inputs
+input[type="checkbox"] {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 22px;
+    width: 22px;
+    border: 1px solid rgba(0,0,0,0.5);
+    position: relative;
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-t .yes-no-inputs div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-d .details-yes-text {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-d {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    border-left: 1px solid rgba(0,0,0,0.5);
+}
+.creditlifeinsurance .lstep3 .check-input .csection .cbox-d .space-input {
+    flex-grow: 1;
+}
+
+/* 
+|---------------------------------------------
+| STEP 4
+|---------------------------------------------  
+*/
+
+.creditlifeinsurance .lstep4 .par-bundle {
+ 
+}
+.creditlifeinsurance .lstep4 .par-bundle p {
+    text-indent: 80px;
+    margin: 30px 0px;
+    text-align: justify;
+}
+
+.creditlifeinsurance .lstep4 .par-section input[type="text"] {
+    width: 273px;
+}
+
+.creditlifeinsurance .lstep4 .signeat-section p {
+    text-indent: 0;
+}
+.creditlifeinsurance .lstep4 .signeat-section input[type="text"],
+.creditlifeinsurance .lstep4 .signeat-section input[type="date"] {
+    width: 221px;
+}
+
+.creditlifeinsurance .lstep4 .lwitness-signature-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.creditlifeinsurance .lstep4 .lwitness-signature-section input[type="text"]{
+    width: 221px;
+}
+.creditlifeinsurance .lstep4 .lwitness-signature-section .wrap-signature {
+    flex-grow: 1;
+    text-align: center;
+    max-width: 250px;
+}
+
+
+
+/* 
+|---------------------------------------------
+| slide form
+|---------------------------------------------  
+*/
+.creditlifeinsurance .life-form-wrapper{
+    min-width: 870px;
+    padding: 50px 30px;
+}
+
+.creditlifeinsurance .life-form-wrapper form{
+    width: 100%;
+
+    overflow-x: hidden;
+}
+
+.creditlifeinsurance .life-form-wrapper form .insurance-step-holder{
+    width: 400%;
+    display: flex;
+    transition: all 0.9s ease;
+
+    
+}
+
+.lstep1,.lstep2,.lstep3,.lstep4{
+    width: 25%;
+}

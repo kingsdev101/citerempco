@@ -1,0 +1,499 @@
+/* 
+|---------------------------------------------
+| CIRCLE AND BUTTON
+|---------------------------------------------  
+*/
+
+.applicationforadds .apinfo {
+    padding: 10px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.applicationforadds .apinfo .circle-wrapper {
+    width: 120px;
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.applicationforadds .apinfo .circle-wrapper div {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    border: 2px solid #222831;
+    margin: 0px 5px;
+}
+.circle-wrapper .active {
+    background-color: #222831;
+}
+
+.applicationforadds .apinfo .stepbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.applicationforadds .apinfo .stepbutton button {
+    padding: 4px 6px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    width: 182px;
+    margin: 0px 5px;
+    text-transform: capitalize;
+}
+.applicationforadds .apinfo .stepbutton button:hover {
+    transform: scale(0.95);
+}
+/* 
+|---------------------------------------------
+| general
+|---------------------------------------------  
+*/
+
+.applicationforadds input[type="text"],
+.applicationforadds input[type="date"] {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 28px;
+    margin: 3px 0px;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.applicationforadds .ap-form-wrapper h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+
+    padding-bottom: 20px;
+}
+.applicationforadds {
+    border: 1px solid #333;
+    font-size: 18px;
+    padding: 20px 10px 20px 10px;
+    height: 700px;
+  
+    
+}
+
+.applicationforadds form {
+}
+
+.applicationforadds .ap-section1 .ap-group {
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    
+}
+.applicationforadds .ap-section1 .ap-group1 {
+    display: flex;
+}
+
+.applicationforadds .ap-section1 .ap-group1 .ap-boxes {
+    flex-grow: 1;
+}
+.applicationforadds .ap-section1 .ap-group1 .ap-boxes .ap-box {
+    display: flex;
+    align-items: center;
+}
+.applicationforadds .ap-section1 .ap-group1 .ap-boxes .ap-box .apb-in {
+    
+    width: 100%;
+}
+.applicationforadds .ap-section1 .ap-group1 .ap-boxes .ap-box div p {
+    width: 140px;
+}
+.applicationforadds
+.ap-section1
+.ap-group1
+.ap-boxes
+.ap-box
+input[type="text"] {
+    width: 100%;
+    
+}
+
+.applicationforadds .ap-section1 .ap-group1 .ap-boxes .ap-box-date-age {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* another */
+
+.applicationforadds .ap-section1 .ap-group1 .ap-box-date-age {
+    flex-wrap: wrap;
+    display: flex;
+}
+.applicationforadds .ap-section1 .ap-group1 .ap-box-date-age div {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.applicationforadds
+.ap-section1
+.ap-group1
+.ap-box-date-age
+    .ap-date
+    input[type="text"] {
+        width: 100%;
+    }
+    
+    .applicationforadds .ap-section1 .ap-group1 .ap-box-date-age .ap-date p {
+        width: 140px;
+    }
+    .applicationforadds
+    .ap-section1
+    .ap-group1
+    .ap-box-date-age
+    .ap-age
+    input[type="text"] {
+        width: 46px;
+    }
+    
+    /* 
+    ap-group2    */
+    
+    .ap-group2 .apm-boxes {
+        display: flex;
+    }
+    .ap-group2 .apm-boxes div {
+        display: flex;
+        align-items: center;
+    }
+    
+    .ap-group2 .apm-boxes .apm-box1 {
+        flex-grow: 3;
+    }
+    .ap-group2 .apm-boxes .apm-box1 p {
+        width: 140px;
+        
+    }
+    .ap-group2 .apm-boxes .apm-box1 input[type="text"] {
+        min-width: 300px;
+        width: 100%;
+    }
+    
+    .ap-group2 .apm-boxes .apm-box2 {
+        flex-grow: 2;
+    }
+    .ap-group2 .apm-boxes .apm-box2 input[type="text"] {
+        width: 100%;
+    }
+    .ap-group2 .apm-boxes .apm-box3 input[type="text"] {
+        width: 100%;
+    }
+    .ap-group2 .apm-boxes .apm-box3 {
+        flex-grow: 1;
+    }
+    
+    /* 
+    ap-group3    */
+    .ap-group3 .apm-boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ap-group3 .apm-boxes div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .ap-group3 .apm-boxes .apm-box1 p {
+        width: 140px;
+    }
+    
+    .ap-group3 .apm-box1 {
+        flex-grow: 3;
+    }
+    .ap-group3 .apm-box2 {
+        flex-grow: 2;
+    }
+    .ap-group3 .apm-box3 {
+        flex-grow: 1;
+        display: flex;
+        
+        justify-content: flex-end;
+    }
+    .ap-group3 .apm-boxes .apm-box1 input[type="text"] {
+        width: 100%;
+        min-width: 260px;
+ 
+        
+    }
+    .ap-group3 .apm-boxes .apm-box2 input[type="text"] {
+    width: 98px;
+}
+.ap-group3 .apm-boxes .apm-box3 input[type="text"] {
+    width: 46px;
+}
+
+/* 
+ap-group4    */
+
+.ap-group4 .apm-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ap-group4 .apm-boxes div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ap-group4 .apm-boxes .apm-box1 p {
+    width: 140px;
+    
+}
+.ap-group4 .apm-boxes .apm-box2 p {
+    
+}
+
+.ap-group4 .apm-box1 {
+    flex-grow: 1;
+}
+.ap-group4 .apm-box2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ap-group4 .apm-boxes .apm-box1 input[type="text"] {
+    width: 100%;
+    width: 260px;
+}
+.ap-group4 .apm-boxes .apm-box2 .apmin1 {
+    width: 245px;
+    
+}
+.ap-group4 .apm-boxes .apm-box2 .apmin2 {
+    width: 46px;
+}
+
+/* ap-down */
+
+.ap-down-section {
+    display: flex;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.ap-down-section h3 {
+    
+}
+
+.ap-down-section .ap-boxes {
+    flex-grow: 1;
+}
+.ap-down-section .ap-boxes .ap-boxes-g .ap-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ap-down-section .ap-boxes .ap-boxes-g .ap-box p {
+    width: 140px;
+}
+.ap-down-section .ap-boxes .ap-boxes-g .ap-box input[type="text"] {
+    width: 260px;
+}
+/* dsire-cov */
+
+.dsire-cov {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.dsire-cov .d-boxes {
+    flex-grow: 1;
+}
+.dsire-cov .dbc-b1 {
+    text-align: center;
+}
+.dsire-cov .dbc-b2 div {
+    display: flex;
+    align-items: center;
+}
+.dsire-cov .dbc-b1 div input[type="text"] {
+    width: 90%;
+}
+.dsire-cov .dbc-b2 div input[type="text"] {
+    width: 59px;
+}
+
+/* 
+|---------------------------------------------
+|Step 2
+|---------------------------------------------  
+*/
+
+.applicationforadds .astep2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.applicationforadds .astep2-wrapper{
+
+    border-top: 1px solid #333;
+}
+.applicationforadds .astep2 .asection-group {
+    display: flex;
+    
+}
+.applicationforadds .astep2 .asection-box,
+.as-age {
+    flex-grow: 1;
+    
+}
+.applicationforadds .astep2 .asection-box input[type="text"] {
+    width: 185px;
+}
+
+.applicationforadds .astep2 .as-age input[type="text"] {
+    width: 51px;
+}
+
+/* apsection2 */
+
+.applicationforadds .astep2 .asection2 {
+    display: flex;
+
+    
+}
+
+.applicationforadds .astep2 .asection3 {
+    display: flex;
+    
+    
+}
+
+.applicationforadds .astep2 .asection3 .as2-in {
+    flex-grow: 1;
+}
+.applicationforadds .astep2 .asection3 .as2-in input[type="text"] {
+    width: 90%;
+}
+.applicationforadds .family-m {
+    background-color: #e1e1e1;
+    padding: 10px 60px;
+    text-align: justify;
+    border-radius: 4px;
+    color: black;
+    margin: 20px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    
+}
+.applicationforadds .family-m select {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #c5c5c5;
+    border-radius: 12px;
+    padding: 2px;
+    outline: none;
+    margin-left: 10px;
+    
+    border-radius: 20px;
+}
+
+.applicationforadds .family-m option {
+    background-color: #ffff;
+    color: black;
+}
+
+.applicationforadds .asection-ad {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.applicationforadds .asection-ad .asectionad-box1 input[type="text"] {
+    width: 100%;
+}
+.applicationforadds .asection-ad .asectionad-box1 {
+    flex-grow: 2;
+}
+
+.applicationforadds .asection-ad .asecti-wrap {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.applicationforadds .asection-ad .asecti-wrap .as-box{
+    width: 100%;
+}
+.applicationforadds .asection-ad .asecti-wrap .as-box input[type="text"]{
+    width: 100%;
+}
+
+.applicationforadds .aihere{
+    padding: 20px 0px;
+    text-align: justify;
+}
+.applicationforadds .ap-sign-at{
+    margin-top: 20px;
+}
+.applicationforadds .ap-sign-at input[type="text"],.applicationforadds .ap-sign-at input[type="date"]{
+    width: 277px;
+}
+
+
+.name-sig{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+.name-sig .name-box input[type="text"],.name-sig .name-box input[type="date"]{
+    width: 277px;
+}
+.name-sig .name-box{
+    text-align: center;
+    width: 300px;
+}
+
+/* 
+|---------------------------------------------
+|slide css
+|---------------------------------------------  
+*/
+
+.applicationforadds .ap-form-wrapper{
+    min-width: 860px;
+    
+    transition:  all 9s ease;
+    
+}
+
+.applicationforadds .ap-form-wrapper form{
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+.applicationforadds .ap-form-wrapper form .apform-holder{
+    width: 200%;
+    display: flex;
+    transition: all 0.9s  ease;
+    
+}
+.applicationforadds .astep2{
+    transition: 0.9s all ease;
+}
+.applicationforadds .astep1 ,.applicationforadds .astep2 {
+    width: 50%;
+    margin: 0px 0px;
+    padding: 0px 20px;
+
+}
+
+
+
+
+

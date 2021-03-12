@@ -1,0 +1,146 @@
+
+
+.applicationforcredit{
+    font-size: 18px;
+    padding: 20px 30px;
+    border:1px solid #333;
+
+    
+
+}
+
+.applicationforcredit h1{
+    text-align: center;
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.applicationforcredit .form-control{
+    display: inline-block;
+    border-radius:  0;
+    border-color: rgba(0,0,0,0.5);
+    height: 34px;
+    outline: none;
+ 
+}
+
+.applicationforcredit .form-control:focus{
+    box-shadow: none;
+    border-color: black;
+}
+
+
+
+.credit-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    
+}
+
+
+.applicationforcredit .form-control{
+    width: 300px;
+    margin-bottom: 14px;
+
+
+
+}
+.credit-inputs .credit-groups{
+    padding: 20px;
+    margin: 0px 10px;
+
+ 
+
+}
+
+.applicationforcredit .crdits-tables{
+    border-top: 1px solid #333;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+
+
+
+.credit-text-section .healthdeclaire{
+    margin-top: 100px;
+    text-indent: 0;
+}
+
+.credit-text-section p{
+    text-indent: 50px;
+    padding: 10px 0px;
+}
+
+.applicationforcredit .credit-signature{
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.applicationforcredit .credit-text-section .form-control{
+    width: 250px;
+    margin: 0px 3px;
+}
+
+.applicationforcredit .credit-signature .creditname p{
+    margin-bottom: 10px;
+}
+.applicationforcredit .credit-signature .creditname div{
+    width: 300px; 
+    text-align: center;
+    padding: 0px 30px;
+}
+
+
+.applicationforcredit .credit-signature .line-signature{
+    border-top: 1px solid #333;
+}
+
+.applicant-signature{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.applicant-signature .applicant-sig{
+    width: 300px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.groups-table {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.groups-table .table thead{
+    background: #222831;
+    color: #ffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.groups-table-wraps {
+    display: flex;
+
+}
+
+.groups-table .tbdateofbirth{
+    width: 150px;
+
+}
+
+.groups-table .tbdateofbirth .form-control{
+    width: 272px;
+}
+
+.groups-table .tbadress{
+
+    min-width: 400px;
+}

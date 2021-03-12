@@ -1,0 +1,321 @@
+.loanapplicationagreement input[type="text"],
+.loanapplicationagreement input[type="date"] {
+    outline: none;
+    border: 1px solid #aaa;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.loanapplicationagreement select{
+    
+}
+.loanapplicationagreement {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper form h1 {
+    font-size: 46px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper .loan-section1{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper .loan-section1 .loan-boxes1{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    
+
+}
+.loanapplicationagreement .loan-agreementform-wrapper .loan-section1 .loan-boxes1 .loan-box{
+    flex-grow: 1;
+
+   
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper .loan-section1 .loan-boxes1 .loan-box label{
+    display: flex;
+    align-items: center;
+
+}
+.loanapplicationagreement .loan-agreementform-wrapper .loan-section1 .loan-boxes1 .loan-box label .lbl{
+    padding-right: 10px;
+}
+.loanapplicationagreement .loan-agreementform-wrapper .loan-section1 .loan-boxes1 .loan-box input[type="radio"]{
+    width: 20px;
+    height: 20px;
+  
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2{
+    display: flex;
+    margin-top: 5px;
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 .loan-box{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 .loan-box p{
+    margin-right: 10px;
+}
+
+.loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 select{
+    width: 133px;
+    margin:  0px 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 input[type="date"]{
+    width: 244px;
+}
+.loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 input[type="text"]{
+    width: 211px;
+}
+
+/* 
+|---------------------------------------------
+| applicant
+|---------------------------------------------  
+*/
+
+.loanapplicationagreement .loan-section2{
+    margin-top: 20px;
+    padding: 15px 20px 25px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.loanapplicationagreement .loan-section2 .loanap{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.loanapplicationagreement .loan-section2 .loan-boxes1{
+    display: flex;
+    
+}
+
+.loanapplicationagreement .loan-section2 .loan-boxes1 input[type="text"]{
+    width: 185px;
+}
+.loanapplicationagreement .loan-section2 .loan-boxes1 .loan-a-date input[type="date"]{
+    width: 172px;
+}
+/* 
+|---------------------------------------------
+| secton 3
+|---------------------------------------------  
+*/
+
+.loanapplicationagreement .loan-boxes3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.loanapplicationagreement .loan-boxes3 .loan-box{
+    flex-grow: 1;
+}
+.loanapplicationagreement .loan-boxes3 .l3b1{
+    display: flex;
+    align-items: center;
+}
+.loanapplicationagreement .loan-boxes3  .loan3-city input[type="text"]{
+    width: 96px;
+    
+}
+.loanapplicationagreement .loan-boxes3  .loan3-address input[type="text"]{
+    width: 243px;
+}
+.loanapplicationagreement .loan-boxes3  .loan3-select select{
+    background-color: #CECECE;
+    outline:  none;
+    border-radius: 4px;
+    
+}
+.loanapplicationagreement .loan-boxes3  .loan3-select select option{
+    background-color: #ffff;
+}
+
+
+
+/* 
+|---------------------------------------------
+| loan 4
+---------------------------------------------  
+*/
+
+.loanapplicationagreement .loan-boxes4{
+    display: flex;
+    margin-top: 5px;
+}
+.loanapplicationagreement .loan-boxes4 .loan-box{
+    flex-grow: 1;
+}
+.loanapplicationagreement .loan-boxes4 .loan4-address input[type="text"]{
+    width: 567px;
+}
+
+.loanapplicationagreement .loan-boxes4 .loan4-nethome{
+    width: 299px;
+}
+
+/* 
+|---------------------------------------------
+| loan 4
+---------------------------------------------  
+*/
+.loanapplicationagreement .loan-boxes5{
+    display: flex;
+    margin-top: 5px;
+}
+.loanapplicationagreement .loan-boxes5 .loan-box{
+    flex-grow: 1;
+}
+.loanapplicationagreement .loan-boxes5 .loan-box .loan5-spouse{
+ display: flex;
+ align-items: center;
+}
+.loanapplicationagreement .loan-boxes5 .loan-box .loan5-spouse input[type="text"]{
+    width: 185px;
+}
+
+/* iloan-a-section */
+
+.iloan-a-section{
+    margin-top: 50px;
+}
+
+.iloan-a-section p{
+    text-indent:  170px;
+    margin: 20px 0px;
+    text-align: justify;
+}
+.iloan-a-section .l-a-in-name{
+    width: 311px;
+}
+.iloan-a-section .l-a-in{
+    width: 228px;
+}
+.iloan-a-section .l-a-amount{
+    width: 123px;
+}
+.iloan-a-section .l-in-date{
+    width: 170px;
+}
+.l-applicant-borrower{
+     margin-top: 50px;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.l-applicant-borrower .l-br-wrap{
+    width: 300px;
+    text-align: center;
+}
+
+/* signature area */
+.lsignature-areas{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.lsignature-areas .sig-boxes p{
+    margin-bottom: 20px;
+
+}
+.lsignature-areas .sig-box{
+    text-align: center;
+    width: 100%;
+    padding: 0px 5px;
+}
+
+.lsignature-areas .sig-box .sigline{
+   
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.ltreasure{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.ltreasure .trboxes{
+    
+    width: 300px;
+    text-align: center;
+}
+
+.ltreasure .trboxes .trline{
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-submit button{
+    width: 182px;
+    border-radius: 20px;
+    padding: 4px 8px;
+    background-color: #222831;
+    color: #ffff;
+    transition: 0.3s ease;
+}
+
+.btn-submit button:hover{
+    transform: scale(0.90);
+}
+
+
+/* 
+|---------------------------------------------
+| index 2
+---------------------------------------------  
+*/
+.loan-n2-section1{
+    padding: 30px 10px 10px 10px;
+}
+.loan-n2-section1 .n2-ap{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.loan-n2-section1 .n2-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.loan-n2-section1 .n2-group .n2-boxes{
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+.loan-n2-section1 .n2-group .n2-box .n2-b{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.loan-n2-section1 .n2-group .n2-box-n1 .n2-b p{
+    width: 140px;
+}
+.loan-n2-section1 .n2-group .n2-box-n2 .n2-b p{
+    padding-right: 5px;
+}
