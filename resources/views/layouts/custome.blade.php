@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{asset('css/loanagreement/loanagreement.css')}}">
 
     <!-- tablet -->
-    <link rel="stylesheet" href="{{asset('css/tablet/fix.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('css/tablet/fix.css')}}"> -->
     <link rel="stylesheet" href="{{asset('css/tablet/about.css')}}">
     <link rel="stylesheet" href="{{asset('css/tablet/home.css')}}">
 
