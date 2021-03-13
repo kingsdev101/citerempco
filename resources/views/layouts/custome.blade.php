@@ -52,7 +52,7 @@
     <body>
         
          <div class="box">
-            <div class="logo-image"><img src="{{asset('img/king.ico')}}" alt="logo"></div>
+            <div class="logo-image"><img src="{{asset('Imges/king.ico')}}" alt="logo"></div>
             <div class="logoname"> <span>CITEREMPCO</span> <small>Isulan</small></div>
         </div>
         <div class="box">
