@@ -1,7 +1,7 @@
 <section class="profile-section">
     <div class="profileimage">
         <div class="image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="user">
+            <img src="{{asset('img/user.png')}}" alt="user">
         </div>
         <div class="">
             <p>John Ross B. Mariñas</p>

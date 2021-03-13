@@ -62,7 +62,7 @@
 
         <div class="box col-lg-4">
             <div class="image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="">
+            <img src="{{asset('img/user.png')}}" alt="">
             </div>
             <div class="step-wrapper">
                 <h3>Step 1</h3>
@@ -78,7 +78,7 @@
 
         <div class="box col-lg-4">
             <div class="image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="">
+            <img src="{{asset('img/user.png')}}" alt="">
             </div>
             <div class="step-wrapper">
                 <h3>Step 2</h3>
@@ -96,12 +96,12 @@
 
         <div class="box col-lg-4">
             <div class="image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="">
+            <img src="{{asset('img/user.png')}}" alt="">
             </div>
             <div class="step-wrapper">
                 <h3>Step 3</h3>
                 <span>Agreement Form</span>
-            </div>
+            </div>  
             <p>
                 In this Process fill out the
                 Loan Apllication Agreement and

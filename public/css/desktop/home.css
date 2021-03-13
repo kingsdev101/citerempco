@@ -6,7 +6,7 @@
 
 .home-image-wrapper {
     min-height: 665px;
-    background: url("../../storage/project_mages/meet.jpg");
+    background: url("../../img/meet.jpg");
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
