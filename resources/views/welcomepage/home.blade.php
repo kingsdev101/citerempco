@@ -120,7 +120,7 @@
 
         <div class="box">
             <div class="box-image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="">
+            <img src="{{asset('public/img/user.png')}}" alt="">
 
             </div>
             <span>Ashly Rose Mariñas</span>
@@ -137,7 +137,7 @@
 
         <div class="box">
             <div class="box-image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="">
+            <img src="{{asset('public/img/user.png')}}" alt="">
 
             </div>
             <span>John Ross Mariñas</span>
@@ -154,7 +154,7 @@
 
         <div class="box">
             <div class="box-image">
-            <img src="{{asset('storage/project_mages/user.png')}}" alt="">
+            <img src="{{asset('public/img/user.png')}}" alt="">
 
             </div>
             <span>Ashly Rose Mariñas</span>
