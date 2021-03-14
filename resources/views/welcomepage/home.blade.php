@@ -8,8 +8,11 @@
 | image
 |--------------------------------------------- -->
     <div class="home-image-wrapper">
+    
         <form method="POST" action="{{ route('register') }}">
             @csrf
+        
+        
             <h2> Apply For Loan Now</h2>
 
 
@@ -42,11 +45,17 @@
                                 @enderror
                                 
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required placeholder="Confirm Password" autocomplete="new-password">
+                            @if(Auth::check())
+                                <button type="button" class="btn btn-default logoutfirst">
+                                        register
+                                </button>
+                            @else
 
                                 <button type="submit" class="btn btn-default">
                                     Register
                                 </button>
            
+                            @endif
     </form>
 </div>
 
@@ -242,7 +251,10 @@
                     <input type="text" class="form-control" placeholder="Contact Number/Optional" name="contactnumber">
                     <textarea name="" id="" cols="30" rows="10">Message/Inquiries
                         </textarea>
-                    <button type="submit btn btn-default"> Submit</button>
+
+
+                    <button type="submit"> Submit</button>
+
                 </form>
             </div>
 
@@ -261,3 +273,18 @@
 </div>
 </div>
 @endsection
+
+@if(Auth::check())
+<script>
+window.onload =function(){
+
+    const logf = document.querySelector(".logoutfirst");
+
+    logf.addEventListener("click",function(){
+        swal ( "Logout First" ,  "You cannot apply loan on the same acount please logout first and register again" ,  "error" )
+    }       
+);
+
+}
+</script>
+@endif

@@ -58,4 +58,8 @@ class InsidePageController extends Controller
     public function creditlifeinsurancestore(){
         dd(request()->all());
     }
+
+    public function logoutfirst () {
+        return view('test');
+    }
 }

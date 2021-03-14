@@ -258,47 +258,63 @@
 
 .contact-form .div-wrapper {
     padding: 80px 20px 20px 20px;
+   
 }
 
+
 .contact-icons {
-}
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+   
+ }
 .contact-icons .holder {
     display: flex;
+    
+    margin: 1px 0px;
+    padding: 20px 0px;
     align-items: center;
-    justify-content: flex-end;
-    margin: 1px;
-    padding: 20px;
+    justify-content: center;
+
+
+
+
 }
 
 .contact-icons .holder .img-wrap {
-    height: 50px;
     width: 50px;
-    line-height: 50px;
-    width: 50px;
+    
+       line-height: 50px;
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     font-size: 32px;
-    margin-right: 50px;
+    
 }
 .contact-icons .holder .info-wrap {
     width: 100%;
-    max-width: 300px;
-    text-align: center;
+    width: 320px;
+    text-align: center ;   
 }
 .contact-icons .holder .info-wrap p {
+    text-align: center;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600;    word-wrap: break-word;
+    word-break: break-all;
+
+
 }
 
 .contact-icons .holder .info-wrap span {
     display: block;
     word-break: break-all;
+    word-wrap: break-word;
     font-size: 14px;
 }
-
 .contact-submit-form form {
     background-color: rgba(34, 40, 49, 0.7);
     border-radius: 35px;
@@ -309,6 +325,8 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .contact-submit-form form .form-control {
@@ -318,6 +336,7 @@
     padding: 20px;
     font-weight: 600;
     color:#222831;
+    
 }
 
 .contact-submit-form form textarea {
@@ -326,7 +345,8 @@
     padding: 15px;
 }
 .contact-submit-form form .form-control::placeholder{
-    color: #787878;
+  
+   
     font-weight: 300;
 }
 

@@ -1,10 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OutsidePageController;
 use App\Http\Controllers\InsidePageController;
-use \App\Http\Controllers\Auth\LoginController;
+use \App\Http\Controllers\Auth\LoginController
+;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +24,7 @@ Route::get('/', function () {
 
 Auth::routes();
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/logoutfirst', [InsidePageController::class, 'logoutfirst'])->name('logoutfirst');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/citerempco/aboutus', [OutsidePageController::class, 'aboutus'])->name('citerempco.aboutus');
 Route::get('/citerempco/register', [OutsidePageController::class, 'home'])->name('citerempco.register');
