@@ -11,7 +11,7 @@
                 @csrf
                     <div class="insureancelogo-title">
                         <div class="philam-life-image">
-                            <img src="{{asset('storage/project_mages/no-image-icon-23485.png')}}" alt="logo">
+                            <img src="{{asset('img/no-image-icon-23485.png')}}" alt="logo">
                         </div>
                         <div class="h1-text">
                             <h1>Credit Life Insurance Small amount Questionaire</h1>
