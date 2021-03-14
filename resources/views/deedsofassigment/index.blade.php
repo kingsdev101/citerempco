@@ -9,7 +9,7 @@
 
             <section class="uppersection">
                 <div class="pco-img">
-                    <img src="{{asset('storage/project_mages/king.ico')}}" alt="cierepmcolog">
+                    <img src="{{asset('img/king.ico')}}" alt="cierepmcolog">
                 </div>
 
                 <div class="upper-text">
