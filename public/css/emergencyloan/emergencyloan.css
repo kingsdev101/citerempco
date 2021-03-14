@@ -330,13 +330,29 @@ border-top: 1px solid #333;
     text-align: center;
 }
 .estep3 .esubmitbtn button{
-    background-color: red;
+    
     border-radius: 20px;
     width: 182px;
     background-color: #222831;
     color: #fff;
     text-transform: capitalize;
     padding: 4px 8px;
+}
+
+
+.emergencyloan .essubmit{
+
+    border-radius: 20px;
+    width: 182px;
+    background-color: #222831;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 4px 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.emergencyloan .essubmit:hover{
+    transform: scale(0.95);
 }
 
 /* 

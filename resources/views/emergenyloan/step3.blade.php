@@ -1,28 +1,28 @@
 <div class="estep3">
 
 
-            <div class="wrap-boxes">
-            <div class="einfo-section">
-        <div class="group-boxes">
-            <p class="ap">Applicant</p>
-            <p>Full Name : <span>Brian Orbino</span></p>
-            <p>School Address: <span>123 Kasoy Isulan bambad</span></p>
+    <div class="wrap-boxes">
+        <div class="einfo-section">
+            <div class="group-boxes">
+                <p class="ap">Applicant</p>
+                <p>Full Name : <span>Brian Orbino</span></p>
+                <p>School Address: <span>123 Kasoy Isulan bambad</span></p>
 
-            <p>Purpose of Loans: <span>To build a beeter place for everuyone</span></p>
-        </div>
-        <div class="group-boxes">
-        <p class="pb-4"></p>
-            <p>Date: <span>2020/11/23</span></p>
-            <p>Application No: <span> 23</span> </p>
-            <p>Net Take Home Pay: <span>30,300</span> </p>
-            <p>Amount Loan Granted: <span>20,000</span></p>
-        </div>
-    </div>
-
-
+                <p>Purpose of Loans: <span>To build a beeter place for everuyone</span></p>
             </div>
-       <div class="eiregister">
-        <p>I <span class="eregistspace">Brian Orbino Brian  </span> a registered bonafide member of a registered bonafide
+            <div class="group-boxes">
+                <p class="pb-4"></p>
+                <p>Date: <span>2020/11/23</span></p>
+                <p>Application No: <span> 23</span> </p>
+                <p>Net Take Home Pay: <span>30,300</span> </p>
+                <p>Amount Loan Granted: <span>20,000</span></p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="eiregister">
+        <p>I <span class="eregistspace">Brian Orbino Brian </span> a registered bonafide member of a registered bonafide
             member of CENTRAL ISULAN TEACHERS, EMPLOYEE AND RETIREES MULTI - PURPOSE COOPERATIVE (CITEREMPCO) hereby
             apply for the Emergency Loan in the amount of <span class="eregistspace">30,3300 </span> I agree to abide
             and
@@ -41,7 +41,7 @@
     <div class="esignature-areas">
         <div class="eap-br">
             <div class="eap-ab-box">
-                
+
                 <p></p>
                 <div>Applicant / Barrower</div>
             </div>
@@ -85,7 +85,7 @@
 
         <div class="loan-b">
             <div class="elbox">
-            Disbursing officer:
+                Disbursing officer:
             </div>
             <div class="elbox">
 
@@ -95,23 +95,17 @@
 
     </div>
 
-            <div class="etrasurere">
-                <div>
-                <p>CORAZON G. NALANG</p>
-                <div>Treasurer</div>
-                </div>
-            </div>
-            <div class="einfo">
-            <div class="circle-wrapper">
-
-                
-            </div>
-            <div class="stepbutton">
-                <button type="button" class="eprevbtn2">previous</button>
-                <button type="submit" class="submit">submit</button>
-            </div>
-            </div>
+    <div class="etrasurere">
+        <div>
+            <p>CORAZON G. NALANG</p>
+            <div>Treasurer</div>
         </div>
-            <div class="stepbutton">
+    </div>
+
+
+        <div class="stepbutton flex justify-center mt-5">
+            <button type="submit" class="essubmit">submit</button>
+        </div>
+
 
 </div>
