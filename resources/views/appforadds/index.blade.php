@@ -44,7 +44,7 @@ apnextbtn1.addEventListener("click", function() {
 
 apprevbtn1.addEventListener("click", function() {
     ap_form_holder.style.marginLeft = "0";
-    apform.style.height = "700px";
+    apform.style.height = "850px";
     astep2.style.opacity = 0;
 });
 

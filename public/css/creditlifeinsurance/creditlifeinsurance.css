@@ -7,7 +7,7 @@
 .creditlifeinsurance {
     font-size: 18px;
     border: 1px solid rgba(0,0,0,0.5);
-
+    
 }
 
 .creditlifeinsurance input[type="text"],
@@ -543,7 +543,7 @@ input[type="checkbox"] {
 |---------------------------------------------  
 */
 .creditlifeinsurance .life-form-wrapper{
-    min-width: 870px;
+   
     padding: 50px 30px;
 }
 

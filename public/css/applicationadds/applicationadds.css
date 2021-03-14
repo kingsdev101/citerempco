@@ -5,7 +5,7 @@
 */
 
 .applicationforadds .apinfo {
-    padding: 10px 0px 0px 5px;
+
     display: flex;
     justify-content: space-between;
 }
@@ -74,15 +74,17 @@
     padding-bottom: 20px;
 }
 .applicationforadds {
+ 
     border: 1px solid #333;
     font-size: 18px;
     padding: 20px 10px 20px 10px;
-    height: 700px;
+    height: 870px;
   
     
 }
 
 .applicationforadds form {
+ 
 }
 
 .applicationforadds .ap-section1 .ap-group {
@@ -466,7 +468,7 @@ ap-group4    */
 */
 
 .applicationforadds .ap-form-wrapper{
-    min-width: 860px;
+    
     
     transition:  all 9s ease;
     
@@ -479,6 +481,7 @@ ap-group4    */
 }
 .applicationforadds .ap-form-wrapper form .apform-holder{
     width: 200%;
+    padding: 10px 0px 0px 5px;
     display: flex;
     transition: all 0.9s  ease;
     

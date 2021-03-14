@@ -6,12 +6,11 @@
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 300;
+
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.loanapplicationagreement select{
-    
-}
+
 .loanapplicationagreement {
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 20px 30px;
@@ -74,16 +73,17 @@
 }
 
 .loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 select{
-    width: 133px;
+    width: 100%;
+    max-width: 133px;
     margin:  0px 5px;
     outline: none;
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 input[type="date"]{
-    width: 244px;
+    max-width: 244px;
 }
 .loanapplicationagreement .loan-agreementform-wrapper .loan-boxes2 input[type="text"]{
-    width: 211px;
+    max-width: 211px;
 }
 
 /* 
@@ -108,10 +108,13 @@
 }
 
 .loanapplicationagreement .loan-section2 .loan-boxes1 input[type="text"]{
-    width: 185px;
+    max-width: 185px;
+    width: 100%;
 }
 .loanapplicationagreement .loan-section2 .loan-boxes1 .loan-a-date input[type="date"]{
-    width: 172px;
+    width: 100%;
+
+    max-width: 172px;
 }
 /* 
 |---------------------------------------------
@@ -132,11 +135,15 @@
     align-items: center;
 }
 .loanapplicationagreement .loan-boxes3  .loan3-city input[type="text"]{
-    width: 96px;
-    
+    width: 100%;
+
+    max-width: 96px;
+
 }
 .loanapplicationagreement .loan-boxes3  .loan3-address input[type="text"]{
-    width: 243px;
+    width: 100%;
+
+    max-width: 243px;
 }
 .loanapplicationagreement .loan-boxes3  .loan3-select select{
     background-color: #CECECE;
@@ -164,11 +171,15 @@
     flex-grow: 1;
 }
 .loanapplicationagreement .loan-boxes4 .loan4-address input[type="text"]{
-    width: 567px;
+   width: 100%;
+
+    max-width: 567px;
 }
 
 .loanapplicationagreement .loan-boxes4 .loan4-nethome{
-    width: 299px;
+   width: 100%;
+
+    max-width: 299px;
 }
 
 /* 
@@ -188,7 +199,9 @@
  align-items: center;
 }
 .loanapplicationagreement .loan-boxes5 .loan-box .loan5-spouse input[type="text"]{
-    width: 185px;
+    width: 100%;
+    max-width: 185px;
+
 }
 
 /* iloan-a-section */
@@ -204,6 +217,7 @@
 }
 .iloan-a-section .l-a-in-name{
     width: 311px;
+
 }
 .iloan-a-section .l-a-in{
     width: 228px;
@@ -294,6 +308,7 @@
 */
 .loan-n2-section1{
     padding: 30px 10px 10px 10px;
+ 
 }
 .loan-n2-section1 .n2-ap{
     font-weight: 600;
