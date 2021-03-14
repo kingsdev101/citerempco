@@ -40,7 +40,6 @@ const enextbtn1 = document.querySelector(".enextbtn1");
 const enextbtn2 = document.querySelector(".enextbtn2");
 
 const eprevbtn1 = document.querySelector(".eprevbtn1");
-const eprevbtn2 = document.querySelector(".eprevbtn2");
 
 
 
@@ -57,10 +56,6 @@ enextbtn2.addEventListener("click", function() {
 eprevbtn1.addEventListener("click", function() {
     emergency_step_holder.style.marginLeft = "0";
     eform.style.height = "600px";
-});
-eprevbtn2.addEventListener("click", function() {
-    emergency_step_holder.style.marginLeft = "-100%";
-    eform.style.height = "650px";
 });
 
 
