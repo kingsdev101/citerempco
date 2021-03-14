@@ -7,7 +7,7 @@
 .emergencyloan{
     font-size: 18px;
     border: 1px solid #333;
-    padding: 10px 30px 20px 30px;
+
 
 }
 
@@ -362,23 +362,25 @@ border-top: 1px solid #333;
 */
 
 .emergencyloan .eform-wrapper {
-    min-width: 870px;
-    height: 400px;
-    height: 600px;
+    padding: 10px 30px 20px 30px;
+        height: 400px;
+        height: 600px;
     transition: height 0.3s ease;
     overflow-y:hidden;
 }
 .emergencyloan .eform-wrapper form{
     width: 100%;
+
     overflow-x: hidden;
 
 }
 
 .emergencyloan .eform-wrapper form .eholder{
 width: 300%;
-    display: flex;
+display: flex;
     transition: all 0.9s ease;
 }
+
 
 .estep1,.estep2,.estep3{
 width: 33.3333%; 

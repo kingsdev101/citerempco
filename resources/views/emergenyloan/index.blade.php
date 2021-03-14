@@ -45,7 +45,7 @@ const eprevbtn1 = document.querySelector(".eprevbtn1");
 
 enextbtn1.addEventListener("click", function() {
     emergency_step_holder.style.marginLeft = "-100%";
-    eform.style.height = "650px";
+    eform.style.height = "700px";
 });
 enextbtn2.addEventListener("click", function() {
     emergency_step_holder.style.marginLeft = "-200%";
