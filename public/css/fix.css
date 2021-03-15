@@ -300,6 +300,12 @@ footer {
     padding: 1px 0px;
 }
 
+.profile-section .menu-list li  {
+    background-color: #e3e4e7;
+}
+.profile-section .menu-list li:hover{
+    background: #babcbe !important;
+}
 .profile-section .menu-list li a::before {
     content: "▶";
     position: absolute;
@@ -314,15 +320,17 @@ footer {
     font-size: 24px;
     font-weight: 600;
     padding-left: 40px;
-    background-color: red;
 
     margin: 5px 5px 5px 0px;
-    background-color: #e3e4e7;
+
     color: #212521;
 }
 
-.profile-section .menu-list li a:hover {
-    background: #babcbe;
+
+
+.linkselected {
+    background: #babcbe !important;
+
 }
 .applicationform-content {
     min-width: 300px;

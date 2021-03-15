@@ -23,11 +23,17 @@
 @section('scripts')
 <script>
 $(document).ready(function(){
+    
     swal("Friendly Reminders", "Make sure to fill in all fields before submitting your information for proper registration", "info",{
         button:{
             text:"Let's Go"
         }
     })
+
+
+
+    
 });
+
 </script>
 @endsection

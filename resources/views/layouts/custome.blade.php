@@ -161,6 +161,8 @@
         <div class="powerd"> Powerd by: J7. IT - solutions</div>
     </footer>
     <script src="{{asset('js/jquery-3.6.0.min.js')}}"></script>
+    
+  
     @yield('scripts')
 
 </body>

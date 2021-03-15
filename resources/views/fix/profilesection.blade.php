@@ -14,9 +14,9 @@
     </div>
 
     <div class="menu-list">
-        <ul>
+        <ul id="links">
 
-            <li> <a href="{{route('citerempco.loanapplication.form')}}">Application Form</a></li>
+        <li> <a href="{{route('citerempco.loanapplication.form')}}">Application Form</a></li>
             <li><a href="{{route('citerempco.deedofassigment.index')}}"> Deed of Assignment</a></li>
             <li> <a href="{{route('citerempco.promissory.index')}}"> Promissory Note</a></li>
             <li><a href="{{route('citerempco.credit.index')}}"> Application for Credit</a></li>
@@ -29,3 +29,4 @@
     </div>
 
 </section>
+

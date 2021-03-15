@@ -7,7 +7,8 @@
 
         <div class="creditlifeinsurance">
             <div class="life-form-wrapper">
-                <form action="{{route('citerempco.creditlifeinsurancestore.index')}}" method="post">
+                <!-- <form action="{{route('citerempco.creditlifeinsurancestore.index')}}" method="post"> -->
+                <form action="#" method="post">
                 @csrf
                     <div class="insureancelogo-title">
                         <div class="philam-life-image">
@@ -114,7 +115,7 @@ lprevbtn3.addEventListener("click", function() {
 </script>
 @endsection
 @section('scripts')
-<script>
+<!-- <script>
 $(document).ready(function(){
     swal("Friendly Reminders", "Make sure to fill in all fields before submitting your information for proper registration", "info",{
         button:{
@@ -122,5 +123,5 @@ $(document).ready(function(){
         }
     })
 });
-</script>
+</script> -->
 @endsection
