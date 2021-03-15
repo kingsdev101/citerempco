@@ -9,7 +9,8 @@
 
             <div class="loan-agreementform-wrapper">
 
-                <form action="">
+                <form action="{{route('citerempco.loanagreement.apply')}}" method="POST">
+                @csrf
                     <h1>Loan Application Agreement</h1>
 
                     <div class="loan-agreement-holder">
@@ -21,28 +22,28 @@
                                 <div class="loan-box">
                                     <label for="clothing">
                                         <div class="lbl">Clothing</div>
-                                        <div><input type="radio" name="" id="clothing"></div>
+                                        <div><input type="radio" name="selectcircle" id="clothing"></div>
 
                                     </label>
                                 </div>
                                 <div class="loan-box">
                                     <label for="midyearbonus">
                                         <div class="lbl">Mid year Bonus:</div>
-                                        <div><input type="radio" name="" id="midyearbonus"></div>
+                                        <div><input type="radio" name="selectcircle" id="midyearbonus"></div>
 
                                     </label>
                                 </div>
                                 <div class="loan-box">
                                     <label for="yearendbunos">
                                         <div class="lbl">Year End Bonus:</div>
-                                        <div><input type="radio" name="" id="yearendbunos"></div>
+                                        <div><input type="radio" name="selectcircle" id="yearendbunos"></div>
 
                                     </label>
                                 </div>
                                 <div class="loan-box">
                                     <label for="others">
                                         <div class="lbl">Others:</div>
-                                        <div><input type="text" name="" id="others"></div>
+                                        <div><input type="text" name="others" id="others"></div>
 
                                     </label>
                                 </div>
@@ -52,18 +53,18 @@
 
                                     <p>Date:</p>
                                     <div>
-                                        <input type="date">
+                                        <input type="date" name="date">
                                     </div>
 
                                 </div>
                                 <div class="loan-box">
 
-                                    <p>Telephone No.:</p>
+                                    <p>Telephone No:</p>
                                     <div>
-                                        <input type="text">
+                                        <input type="text" name="telephone">
                                     </div>
                                     <div>
-                                        <select name="" id="">
+                                        <select name="mobile" id="">
                                             <option value="">mobile </option>
                                         </select>
                                     </div>
@@ -77,19 +78,19 @@
                             <div class="loan-boxes1">
                                 <div class="loan-box">
                                     <p>First Name:</p>
-                                    <div><input type="text"></div>
+                                    <div><input type="text" name="applicant[firstname]"></div>
                                 </div>
                                 <div class="loan-box mx-1">
                                     <p>Middle Name:</p>
-                                    <p><input type="text"></p>
+                                    <p><input type="text" name="applicant[middlename]"></p>
                                 </div>
                                 <div class="loan-box mr-1">
                                     <p>Family Name:</p>
-                                    <div><input type="text"></div>
+                                    <div><input type="text" name="applicant[familyname]"></div>
                                 </div>
                                 <div class="loan-box flex flex items-end">
                                     <p class="pr-2">Date:</p>
-                                    <div class="loan-a-date "><input type="date"></div>
+                                    <div class="loan-a-date "><input type="date" name="applicant[date]"></div>
                                 </div>
 
                             </div>
@@ -100,10 +101,10 @@
                                     <div class="l3b1">
                                         <div class="loan3-address">
 
-                                            <input type="text" placeholder="Address">
+                                            <input type="text" placeholder="Address" name="applicant[scholladdress]">
                                         </div>
-                                        <div class="loan3-city ml-1"><input type="text" placeholder="City"></div>
-                                        <div class="loan3-select ml-1"><select name="" id="">
+                                        <div class="loan3-city ml-1"><input type="text" placeholder="City" name="applicant[city]"></div>
+                                        <div class="loan3-select ml-1"><select name="applicant[state]" id="">
                                                 <option value="">State</option>
                                                 <option value="">State</option>
                                             </select></div>
@@ -111,18 +112,18 @@
                                 </div>
                                 <div class="loan-box">
                                     <p>Application No.:</p>
-                                    <div><input type="text"></div>
+                                    <div><input type="text" name="applicant[applicantnumber]"></div>
                                 </div>
                             </div>
 
                             <div class="loan-boxes4">
                                 <div class="loan-box">
                                     <p>Present Possition:</p>
-                                    <div class="loan4-address"><input type="text" placeholder="Address"></div>
+                                    <div class="loan4-address"><input type="text" placeholder="Address" name="applicant[presentposition]"></div>
                                 </div>
                                 <div class="loan-box ml-1">
                                     <p>Net Take Home Pay:</p>
-                                    <div class="loan4-nethome"><input type="text"></div>
+                                    <div class="loan4-nethome"><input type="text" name="applicant[nettakehomepay]"></div>
                                 </div>
                             </div>
 
@@ -130,16 +131,16 @@
                                 <div class="loan-box">
                                     <p>Co- Maker: Name of Spouse:</p>
                                     <div class="loan5-spouse">
-                                        <div><input type="text" placeholder="First Name"></div>
-                                        <div class="mx-1"><input type="text" placeholder="Middle Name"></div>
-                                        <div><input type="text" placeholder="Family Name"></div>
+                                        <div><input type="text" placeholder="First Name" name="co[spouse][firstname]"></div>
+                                        <div class="mx-1"><input type="text" placeholder="Middle Name" name="co[spouse][middlename]"></div>
+                                        <div><input type="text" placeholder="Family Name" name="co[spouse][familyname]"></div>
                                     </div>
                                 </div>
 
                                 <div class="loan-box">
                                     <p>Amount of Loan Granted:</p>
                                     <div class="l5-amountgranted">
-                                        <input type="text">
+                                        <input type="text" name="co[spouse][amountloangranted]">
                                     </div>
                                 </div>
 
@@ -149,12 +150,12 @@
 
 
                         <div class="iloan-a-section">
-                            <p>I <input type="text" class="l-a-in-name" placeholder="Name"> .loanapplicationagreement
+                            <p>I <input type="text" class="l-a-in-name" placeholder="Name" name="applicant[paragrap][firstname]"> .loanapplicationagreement
                                 .loan-boxes5 .loan-box
                                 .loan5-spouse CENTRAL ISULAN TEACHERS, EMPLOYEE AND RETIREES MULTI - PURPOSE COOPERATIVE
                                 (CITEREMPCO) hereby apply for the Emergency Loan in the amount of <input type="text"
-                                    class="l-a-in" placeholder="Amount"> <input type="text" class="l-a-amount"
-                                    placeholder="Php"> I agree to abide and comply with the terms and condition sets
+                                    class="l-a-in" placeholder="Amount" name="applicant[paragrap][amount]"> <input type="text" class="l-a-amount"
+                                    placeholder="Php" name="applicant[paragrap][php]"> I agree to abide and comply with the terms and condition sets
                                 forth
                                 below. Pay the monthly interest of three (3%) and pay for only for six
                             </p>
@@ -166,19 +167,19 @@
                                 or in full, hereby to pay to the CITEREMPCO Treasurer.
                             </p>
                             <p>In witness whereof i here unto affix my signature this <input class="l-in-date"
-                                    type="date">
+                                    type="date" name="applicant[paragrap][date]">
                             </p>
                         </div>
 
                         <div class="l-applicant-borrower">
                             <div class="l-br-wrap">
-                                <div><input type="text"></div>
+                                <div><input type="text" name="signature[applicantborrower]"></div>
                                 <div>Applicant / Barrower</div>
                             </div>
                         </div>
                         <div class="l-applicant-borrower">
                             <div class="l-br-wrap">
-                                <div><input type="text"></div>
+                                <div><input type="text" name="signature[nameofspouse]"></div>
                                 <div>Name of the Spouse</div>
                             </div>
                         </div>

@@ -8,7 +8,8 @@
         <div class="applicationforadds">
 
             <div class="ap-form-wrapper">
-                <form action="">
+                <form action="{{route('citerempco.applicationfadds.apply')}}" method="POST">
+                @csrf
 
                     <h1>Application for Accident and Dismerment
                         Security Scheme</h1>

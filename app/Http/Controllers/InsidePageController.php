@@ -17,11 +17,12 @@ class InsidePageController extends Controller
     }
     
     public function store(){
-      //  dd(request()->all());
-      return redirect()->route('citerempco.loanapplication.complete');
+        dd(request()->all());
+      //return redirect()->route('citerempco.loanapplication.complete');
     }
     
     public function complete(){
+        
         return view('loanapplication.complete');
     }
 
@@ -50,10 +51,18 @@ class InsidePageController extends Controller
     public function appifadds(){
         return view('appforadds.index');
     }
-
+    public function addsapply(){
+        dd(request()->all());
+    }
+    
     public function loanagreement(){
         return view('loanapplicationagrement.index');
-    }   
+    } 
+    
+    public function loanagreementapply(){
+       dd(request()->all());
+    }
+
 
     public function creditlifeinsurancestore(){
         dd(request()->all());

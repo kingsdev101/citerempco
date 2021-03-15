@@ -43,5 +43,7 @@ Route::get('/citerempco/creditlifeinsurance', [InsidePageController::class, 'cre
 Route::post('/citerempco/creditlifeinsurance', [InsidePageController::class, 'creditlifeinsurancestore'])->name('citerempco.creditlifeinsurancestore.index');
 Route::get('/citerempco/emergencyloan', [InsidePageController::class, 'emergencyloan'])->name('citerempco.emergencyloan.index');
 Route::get('/citerempco/applicationfadds', [InsidePageController::class, 'appifadds'])->name('citerempco.applicationfadds.index');
+Route::post('/citerempco/applicationfadds/apply', [InsidePageController::class, 'addsapply'])->name('citerempco.applicationfadds.apply');
 Route::get('/citerempco/loanapplicationagreement', [InsidePageController::class, 'loanagreement'])->name('citerempco.loanagreement.index');
+Route::post('/citerempco/loanapplicationagreement/apply', [InsidePageController::class, 'loanagreementapply'])->name('citerempco.loanagreement.apply');
 
