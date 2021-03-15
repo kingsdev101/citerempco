@@ -52,7 +52,8 @@ class InsidePageController extends Controller
         return view('appforadds.index');
     }
     public function addsapply(){
-        dd(request()->all());
+        //dd(request()->all());
+        return back();
     }
     
     public function loanagreement(){
@@ -65,7 +66,9 @@ class InsidePageController extends Controller
 
 
     public function creditlifeinsurancestore(){
-        dd(request()->all());
+        // dd(request()->all());
+        return back();
+        
     }
 
     public function logoutfirst () {

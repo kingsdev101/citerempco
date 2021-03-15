@@ -8,7 +8,7 @@
         <div class="creditlifeinsurance">
             <div class="life-form-wrapper">
                 <!-- <form action="{{route('citerempco.creditlifeinsurancestore.index')}}" method="post"> -->
-                <form action="#" method="post">
+                <form action="" method="post">
                 @csrf
                     <div class="insureancelogo-title">
                         <div class="philam-life-image">
